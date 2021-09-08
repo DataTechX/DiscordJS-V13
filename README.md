@@ -1,10 +1,10 @@
 <div align="center">
   <p>
-    <h1>Discord.JS v13 Tutorials</h1>
+    <h1>Discord.JS v13</h1>
   </p>
 </div>
 
-## Introduction & บทนำ
+## Introduction. & บทนำ.
 
 ***
 Here's an example of a bot project being developed with. Discord.JS Version 13 which is the latest version.
@@ -12,7 +12,7 @@ Here's an example of a bot project being developed with. Discord.JS Version 13 w
 นี่คือตัวอย่างโปรเจคบอทที่ถูกพัฒนาด้วย ดิสคอร์ด.เจเอส เวอร์ชั่น13 ซึ่งเป็นเวอร์ชั่นใหม่ล่าสุด
 ***
 
-## How To Setup & How To Setup
+## How To Setup & วิธีการตั้งค่า
 
 [Build a Discord Bot with Discord.js (v13)](https://dev.to/hypening/build-a-discord-bot-with-discord-js-v13-14mj)
 
@@ -22,7 +22,7 @@ Here's an example of a bot project being developed with. Discord.JS Version 13 w
 
 [Nodejs](https://nodejs.org/en/)
 
-##Adding a command.
+##Adding a command. & การเพิ่มคำสั่ง.
 ###You can simply add a command in the specific folder with the code below:
 ```javascript
 const { Client, Message, MessageEmbed } = require('discord.js');
