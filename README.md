@@ -20,7 +20,24 @@
 [Nodejs](https://nodejs.org/en/)
 
 ##Adding a command.
-###คุณสามารถเพิ่มคำสั่งในโฟลเดอร์เฉพาะด้วยรหัสด้านล่าง:
+###You can simply add a command in the specific folder with the code below:
+```javascript
+const { Client, Message, MessageEmbed } = require('discord.js');
+
+module.exports = {
+    name: 'ping',
+    /** 
+     * @param {Client} client 
+     * @param {Message} message 
+     * @param {String[]} args 
+     */
+    run: async(client, message, args) => {
+        message.channel.send('pong');
+    }
+}
+```
+###คุณสามารถเพิ่มคำสั่งในโฟลเดอร์เฉพาะด้วยรหัสด้านล่าง: 
+
 ```javascript
 const { Client, Message, MessageEmbed } = require('discord.js');
 
