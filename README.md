@@ -69,8 +69,7 @@ module.exports = {
 } }
 }
 ```
-
-```fix This project is created for educational purposes only. If there is any error, you can inquire at [Support](discord.gg/ZWmJVExdbR)
- โปรเจคนี้สร้างขึ้นเพื่อการศึกษาเท่านั้น หากมีข้อผิดพลาดทางใดสามารถสอบถามได้ที่ [Support](discord.gg/ZWmJVExdbR)
- ```
+###### This project is created for educational purposes only. If there is any error, you can inquire at [Support](discord.gg/ZWmJVExdbR)
+###### โปรเจคนี้สร้างขึ้นเพื่อการศึกษาเท่านั้น หากมีข้อผิดพลาดทางใดสามารถสอบถามได้ที่ [Support](discord.gg/ZWmJVExdbR)
+ 
 
