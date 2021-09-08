@@ -16,9 +16,9 @@
 
 [สร้าง Discord Bot ด้วย Discord.js (v13)](https://dev.to/hypening/build-a-discord-bot-with-discord-js-v13-14mj)
 
-[discordjs](https://discord.js.org/#/)
+[Discordjs](https://discord.js.org/#/)
 
-[nodejs](https://nodejs.org/en/)
+[Nodejs](https://nodejs.org/en/)
 
 > This project is created for educational purposes only. If there is any error, you can inquire at [Support](discord.gg/ZWmJVExdbR)
 > โปรเจคนี้สร้างขึ้นเพื่อการศึกษาเท่านั้น หากมีข้อผิดพลาดทางใดสามารถสอบถามได้ที่ [Support](discord.gg/ZWmJVExdbR)
