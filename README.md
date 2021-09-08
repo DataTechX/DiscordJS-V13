@@ -6,10 +6,9 @@
 
 ## Introduction & บทนำ
 
-> Hello there, this sentence will mark the beginning of my first ever article released to the public. In this, and the following articles I will introduce beginners to the magical world of Discord bots. I will be using the new discord.js v13 library. However, there are certain prerequisites.
-
-> สวัสดี ประโยคนี้จะเป็นจุดเริ่มต้นของบทความแรกของฉันที่เผยแพร่สู่สาธารณะ ในบทความนี้และบทความต่อไปนี้ ฉันจะแนะนำผู้เริ่มต้นสู่โลกมหัศจรรย์ของบอท Discord ฉันจะใช้ไลบรารี discord.js v13 ใหม่ อย่างไรก็ตาม มีข้อกำหนดเบื้องต้นบางประการ
-
+***
+นี้
+***
 ## How To Setup & How To Setup
 
 [Build a Discord Bot with Discord.js (v13)](https://dev.to/hypening/build-a-discord-bot-with-discord-js-v13-14mj)
@@ -19,6 +18,24 @@
 [Discordjs](https://discord.js.org/#/)
 
 [Nodejs](https://nodejs.org/en/)
+
+##Adding a command.
+###คุณสามารถเพิ่มคำสั่งในโฟลเดอร์เฉพาะด้วยรหัสด้านล่าง:
+```javascript
+const { Client, Message, MessageEmbed } = require('discord.js');
+
+module.exports = {
+    name: 'ping',
+    /** 
+     * @param {Client} client 
+     * @param {Message} message 
+     * @param {String[]} args 
+     */
+    run: async(client, message, args) => {
+        message.channel.send('pong');
+    }
+}
+```
 
 ```fix This project is created for educational purposes only. If there is any error, you can inquire at [Support](discord.gg/ZWmJVExdbR)
  โปรเจคนี้สร้างขึ้นเพื่อการศึกษาเท่านั้น หากมีข้อผิดพลาดทางใดสามารถสอบถามได้ที่ [Support](discord.gg/ZWmJVExdbR)
