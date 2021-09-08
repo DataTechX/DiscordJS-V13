@@ -8,6 +8,7 @@
 
 ***
 Here's an example of a bot project being developed with. Discord.JS Version 13 which is the latest version.
+
 นี่คือตัวอย่างโปรเจคบอทที่ถูกพัฒนาด้วย ดิสคอร์ด.เจเอส เวอร์ชั่น13 ซึ่งเป็นเวอร์ชั่นใหม่ล่าสุด
 ***
 
