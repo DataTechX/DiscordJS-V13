@@ -40,7 +40,6 @@ module.exports = {
 
 ```javascript
 const { Client, Message, MessageEmbed } = require('discord.js');
-
 module.exports = {
     name: 'ping',
     /** 
@@ -49,7 +48,22 @@ module.exports = {
      * @param {String[]} args 
      */
     run: async(client, message, args) => {
-        message.channel.send('pong');
+        const row = new MessageActionRow()
+			.addComponents(
+			const button = new MessageButton()
+	    .setCustomId('primary')
+	    .setLabel('Primary')
+      .setStyle('PRIMARY')
+      .setDisabled(true);
+			);
+
+		const embed = new MessageEmbed()
+			.setColor('#0099ff')
+			.setTitle('Some title')
+			.setURL('https://discord.js.org')
+			.setDescription('Some description here');
+
+		await message.reply({ content: 'Pong!', ephemeral: true, embeds: [embed], components: [row] });
     }
 }
 ```
