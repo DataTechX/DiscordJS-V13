@@ -7,8 +7,10 @@
 ## Introduction & บทนำ
 
 ***
-นี้
+Here's an example of a bot project being developed with. Discord.JS Version 13 which is the latest version.
+นี่คือตัวอย่างโปรเจคบอทที่ถูกพัฒนาด้วย ดิสคอร์ด.เจเอส เวอร์ชั่น13 ซึ่งเป็นเวอร์ชั่นใหม่ล่าสุด
 ***
+
 ## How To Setup & How To Setup
 
 [Build a Discord Bot with Discord.js (v13)](https://dev.to/hypening/build-a-discord-bot-with-discord-js-v13-14mj)
