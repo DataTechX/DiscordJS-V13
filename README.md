@@ -39,7 +39,7 @@ module.exports = {
 ###คุณสามารถเพิ่มคำสั่งในโฟลเดอร์เฉพาะด้วยรหัสด้านล่าง: 
 
 ```javascript
-const { Client, Message, MessageEmbed } = require('discord.js');
+const { Client, Message, MessageEmbed, MessageButton } = require('discord.js');
 module.exports = {
     name: 'ping',
     /** 
@@ -47,24 +47,24 @@ module.exports = {
      * @param {Message} message 
      * @param {String[]} args 
      */
-    run: async(client, message, args) => {
+    run: async (client, message, args) => {
         const row = new MessageActionRow()
-			.addComponents(
-			const button = new MessageButton()
-	    .setCustomId('primary')
-	    .setLabel('Primary')
-      .setStyle('PRIMARY')
-      .setDisabled(true);
-			);
+            .addComponents(
+                new MessageButton()
+                    .setCustomId('primary')
+                    .setLabel('Primary')
+                    .setStyle('PRIMARY')
+            );
 
-		const embed = new MessageEmbed()
-			.setColor('#0099ff')
-			.setTitle('Some title')
-			.setURL('https://discord.js.org')
-			.setDescription('Some description here');
+        const embed = new MessageEmbed()
+            .setColor('#0099ff')
+            .setTitle('Some title')
+            .setURL('https://discord.js.org')
+            .setDescription('Some description here');
 
-		await message.reply({ content: 'Pong!', ephemeral: true, embeds: [embed], components: [row] });
+        await message.reply({ content: 'Pong!', ephemeral: true, embeds: [embed], components: [row] });
     }
+} }
 }
 ```
 
